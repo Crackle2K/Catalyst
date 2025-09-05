@@ -1,4 +1,4 @@
-/* */
+/* Font Imports */
 
 @charset "UTF-8";
 @font-face {
@@ -14,6 +14,8 @@
     src: url(assets/fonts/GloomieSaturday.otf);
 }
 
+/* Element Styles */
+
 .bubble {
   background-color: #bfb9ff;
   padding: 20px;
@@ -28,69 +30,6 @@
   background-color: #2D2327;
   margin: 20px 0;
   width: 100%;
-}
-
-#mpl {
-  width: 100px;
-  height: auto;
-}
-
-img {
-  float: right;
-}
-
-
-#microscopeActivity {
-  max-width: 250px;
-  height: auto;
-  border-radius: 10px; 
-}
-
-#meetingSpace {
-  max-width: 250px;
-  height: auto;
-  border-radius: 10px; 
-}
-
-#languages {
-  max-width: 250px;
-  height: auto;
-  border-radius: 10px; 
-}
-
-#creativeMindset {
-  max-width: 250px;
-  height: auto;
-  border-radius: 10px; 
-}
-
-#skills {
-  text-align: left;
-}
-
-#achievements {
-  text-align: left;
-}
-
-#soccer {
-  max-width: 250px;
-  height: auto;
-  border-radius: 10px; 
-}
-
-#mplWrapper {
-  position: fixed;
-  top: 30px;
-  left: 50px;
-  width: 108px;
-  height: 108px;
-  background-color: #2D2327;
-  border-radius: 50%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  z-index: 9999;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
 }
 
 html {
@@ -119,14 +58,31 @@ h2 {
     font-family: Coolvetica;
 }
 
+h3 {
+  text-transform: uppercase;
+  letter-spacing: .2em;
+  color: #2D2327;
+  padding-left: 1em;
+  margin-top: 2.5em;
+  font-family: LemonMilk;
+}
+
+h4 {
+  text-align: center;
+  color: #2D2327;
+  font-family: Gloomie;
+  font-size: 40px;
+}
+
 p {
   color: #bfb9ff;
   font-family: Coolvetica;
 }
 
-/* link styles */
-a:link, a:visited { color: #DC6903; }
-a:focus, a:hover, a:active { color: #F9AB33; }
+/* Link Styles */
+
+a:link, a:visited { color: #2D2327; }
+a:focus, a:hover, a:active { color: #2D2327; }
 
 a {
   text-decoration: none;
@@ -135,14 +91,15 @@ a {
   font-family: LemonMilk;
 }
 
-/* header styles */
+/* Header Styles */
+
 header h1 {
   margin-top: 1.5em;
   text-align: center;
 }
 
+/* Navigation Bar Styles */
 
-/* nav styles */
 nav, footer {
   font-family: verdana, sans-serif;
   background-color: #45364B;
@@ -199,16 +156,7 @@ main {
   border-radius: 25px;
   margin: 2.5%;
 }
-h3 {
-  text-transform: uppercase;
-  letter-spacing: .2em;
-  color: #2D2327;
-  padding-left: 1em;
-  margin-top: 2.5em;
-  font-family: LemonMilk;
-}
 
-/* aside "hours" styles */
 aside {
   background: url(images/scallop.png) repeat-y left top;
   background-color: #62466B;
@@ -217,32 +165,10 @@ aside {
   border-top-right-radius: 25px;
   margin: 1em 2.5% 0 10%;
 }
-/* misc styles */
+
 footer {
   color: #00ff1e;
   text-align: center;
   font-size: 1em;
   padding: 1em;
 }
-
-
-#award { 	
-  position: fixed; 	
-  top: 30px; 	
-  left: 50px;
-}
-.day { 
-  color: #783F27;
-  font-family: verdana, sans-serif;
-  font-size: .8em;
-  text-transform: uppercase;
-}
-
-h4 {
-  text-align: center;
-  color: #2D2327;
-  font-family: Gloomie;
-  font-size: 40px;
-}
-
-
